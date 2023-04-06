@@ -1,10 +1,9 @@
 package com.example.test.mapper;
 
 
-import org.mapstruct.Mapper;
-import org.mapstruct.Mapping;
-import ru.skypro.homework.dto.UserDTO;
-import ru.skypro.homework.entity.UserEntity;
+import com.example.test.dto.UserDTO;
+import com.example.test.entity.UserEntity;
+import org.springframework.web.bind.annotation.Mapping;
 
 import java.util.Collection;
 

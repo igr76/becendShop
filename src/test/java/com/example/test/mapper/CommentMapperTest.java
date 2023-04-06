@@ -1,14 +1,17 @@
 package com.example.test.mapper;
 
+import com.example.test.dto.CommentDTO;
+import com.example.test.entity.AdEntity;
+import com.example.test.entity.CommentEntity;
+import com.example.test.entity.UserEntity;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import ru.skypro.homework.dto.CommentDTO;
-import ru.skypro.homework.entity.AdEntity;
-import ru.skypro.homework.entity.CommentEntity;
-import ru.skypro.homework.entity.UserEntity;
+
 
 import java.time.LocalDateTime;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 @SpringBootTest
 class CommentMapperTest {

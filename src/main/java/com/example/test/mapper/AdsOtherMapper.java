@@ -1,11 +1,11 @@
 package com.example.test.mapper;
 
-import org.mapstruct.Mapper;
-import org.mapstruct.Mapping;
-import ru.skypro.homework.dto.CreateAds;
-import ru.skypro.homework.dto.FullAds;
-import ru.skypro.homework.entity.AdEntity;
-import ru.skypro.homework.entity.ImageEntity;
+
+import com.example.test.dto.CreateAds;
+import com.example.test.dto.FullAds;
+import com.example.test.entity.AdEntity;
+import com.example.test.entity.ImageEntity;
+import org.springframework.web.bind.annotation.Mapping;
 
 import java.util.List;
 import java.util.stream.Collectors;

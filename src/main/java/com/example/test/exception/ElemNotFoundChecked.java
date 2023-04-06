@@ -1,8 +1,9 @@
 package com.example.test.exception;
 
+import com.example.test.loger.FormLogInfo;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;
-import ru.skypro.homework.loger.FormLogInfo;
+
 
 /**
  * эксепш - класс {@link CustomExceptionHandler#handleInvalidTraceIdException(IFElementExist)}

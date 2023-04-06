@@ -1,15 +1,13 @@
 package com.example.test.service.impl;
 
+import com.example.test.dto.Role;
+import com.example.test.entity.UserEntity;
+import com.example.test.repository.AdsRepository;
+import com.example.test.repository.UserRepository;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.stereotype.Service;
-import ru.skypro.homework.dto.Role;
-import ru.skypro.homework.entity.AdEntity;
-import ru.skypro.homework.entity.UserEntity;
-import ru.skypro.homework.exception.ElemNotFound;
-import ru.skypro.homework.repository.AdsRepository;
-import ru.skypro.homework.repository.UserRepository;
-
+import com.example.test.exception.ElemNotFound;
 @Service
 public class SecurityService {
     AdsRepository adsRepository;

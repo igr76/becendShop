@@ -1,22 +1,22 @@
 package com.example.test.mapper;
 
+import com.example.test.dto.AdsDTO;
+import com.example.test.dto.CreateAds;
+import com.example.test.dto.FullAds;
+import com.example.test.entity.AdEntity;
+import com.example.test.entity.CommentEntity;
+import com.example.test.entity.ImageEntity;
+import com.example.test.entity.UserEntity;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import ru.skypro.homework.dto.AdsDTO;
-import ru.skypro.homework.dto.CreateAds;
-import ru.skypro.homework.dto.FullAds;
-import ru.skypro.homework.dto.Role;
-import ru.skypro.homework.entity.AdEntity;
-import ru.skypro.homework.entity.CommentEntity;
-import ru.skypro.homework.entity.ImageEntity;
-import ru.skypro.homework.entity.UserEntity;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 @SpringBootTest

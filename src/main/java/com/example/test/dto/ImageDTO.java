@@ -5,7 +5,7 @@ import lombok.experimental.FieldDefaults;
 
 
 /**
- * DTO  для {@link ru.skypro.homework.entity.ImageEntity} картинки
+ * DTO  для {@link} картинки
  */
 @Getter
 @Setter
