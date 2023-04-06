@@ -1,6 +1,9 @@
 package com.example.test.controller;
 
 
+import com.example.test.dto.ImageDTO;
+import com.example.test.loger.FormLogInfo;
+import com.example.test.service.AdsService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.media.ArraySchema;
 import io.swagger.v3.oas.annotations.media.Content;

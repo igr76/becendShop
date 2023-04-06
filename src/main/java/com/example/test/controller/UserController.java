@@ -1,5 +1,9 @@
 package com.example.test.controller;
 
+import com.example.test.dto.NewPassword;
+import com.example.test.dto.UserDTO;
+import com.example.test.loger.FormLogInfo;
+import com.example.test.service.UserService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.media.ArraySchema;
 import io.swagger.v3.oas.annotations.media.Content;

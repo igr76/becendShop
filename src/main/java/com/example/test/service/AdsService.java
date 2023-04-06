@@ -1,6 +1,7 @@
 package com.example.test.service;
 
 
+import com.example.test.dto.*;
 import org.springframework.security.core.Authentication;
 import org.springframework.web.multipart.MultipartFile;
 import ru.skypro.homework.dto.*;

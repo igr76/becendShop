@@ -1,11 +1,13 @@
 package com.example.test.repository;
 
+
+import com.example.test.entity.CommentEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-import ru.skypro.homework.entity.CommentEntity;
 
 import java.util.Collection;
 import java.util.Optional;
+
 
 /**
  * Репозиторий для комментариев

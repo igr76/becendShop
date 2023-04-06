@@ -1,7 +1,9 @@
 package com.example.test.service;
 
-import ru.skypro.homework.dto.RegisterReq;
-import ru.skypro.homework.dto.Role;
+
+import com.example.test.dto.RegisterReq;
+import com.example.test.dto.Role;
+
 /** Сервис для регистрации */
 public interface AuthService {
     /** Логин и пароль пользователя */

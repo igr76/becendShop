@@ -1,9 +1,10 @@
 package com.example.test.mapper;
 
-import org.mapstruct.Mapper;
-import org.mapstruct.Mapping;
-import ru.skypro.homework.dto.ImageDTO;
-import ru.skypro.homework.entity.ImageEntity;
+
+import com.example.test.dto.ImageDTO;
+import com.example.test.entity.ImageEntity;
+import org.springframework.web.bind.annotation.Mapping;
+
 /**
  * маппер для {@link ImageEntity} готовый DTO {@link ImageDTO}
  */

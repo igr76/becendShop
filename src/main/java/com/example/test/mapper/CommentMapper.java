@@ -1,9 +1,8 @@
 package com.example.test.mapper;
 
-import org.mapstruct.Mapper;
-import org.mapstruct.Mapping;
-import ru.skypro.homework.dto.CommentDTO;
-import ru.skypro.homework.entity.CommentEntity;
+import com.example.test.dto.CommentDTO;
+import com.example.test.entity.CommentEntity;
+import org.springframework.web.bind.annotation.Mapping;
 
 import java.util.Collection;
 
