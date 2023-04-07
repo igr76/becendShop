@@ -1,0 +1,18 @@
+version: '3'
+services:
+  postgres:
+    image: 'postgres:10'
+    container_name: 'java-postgres'
+    environment:
+      - 'POSTGRES_USER=igr'
+      - 'POSTGRES_PASSWORD=11111111'
+      - 'POSTGRES_DB=re_sale_db'
+    ports:
+      - '5432:5432'
+
+
+  app:
+    build: ./
+    container_name: 're_sale_db'
+    ports:
+      - '8081:8081'
