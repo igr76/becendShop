@@ -1,6 +1,11 @@
 package com.example.test.controller;
 
 
+import com.example.test.WebSecurityConfigTest;
+import com.example.test.repository.AdsRepository;
+import com.example.test.repository.ImageRepository;
+import com.example.test.service.AdsService;
+import com.example.test.service.ImageService;
 import org.jetbrains.annotations.NotNull;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
@@ -17,11 +22,7 @@ import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.test.web.servlet.request.RequestPostProcessor;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import org.springframework.web.context.WebApplicationContext;
-import ru.skypro.homework.WebSecurityConfigTest;
-import ru.skypro.homework.repository.AdsRepository;
-import ru.skypro.homework.repository.ImageRepository;
-import ru.skypro.homework.service.AdsService;
-import ru.skypro.homework.service.ImageService;
+
 
 import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;

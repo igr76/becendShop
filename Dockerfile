@@ -1,4 +1,3 @@
-FROM adoptopenjdk:11-jre-hotspot
-ARG JAR_FILE=target/*.jar
-COPY ${JAR_FILE} app.jar
-ENTRYPOINT ["java","-jar","/app.jar"]
+FROM openjdk:11
+ADD /target/test-0.0.1-SNAPSHOT.jar test.jar
+ENTRYPOINT "java", "-jar","test.jar"

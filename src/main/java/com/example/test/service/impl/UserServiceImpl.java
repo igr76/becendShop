@@ -1,19 +1,19 @@
 package com.example.test.service.impl;
 
 
+import com.example.test.dto.NewPassword;
+import com.example.test.dto.UserDTO;
+import com.example.test.entity.UserEntity;
+import com.example.test.loger.FormLogInfo;
+import com.example.test.mapper.UserMapper;
+import com.example.test.repository.UserRepository;
+import com.example.test.service.UserService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.security.core.Authentication;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
-import ru.skypro.homework.dto.NewPassword;
-import ru.skypro.homework.dto.UserDTO;
-import ru.skypro.homework.entity.UserEntity;
-import ru.skypro.homework.exception.ElemNotFound;
-import ru.skypro.homework.loger.FormLogInfo;
-import ru.skypro.homework.mapper.UserMapper;
-import ru.skypro.homework.repository.UserRepository;
-import ru.skypro.homework.service.UserService;
+import com.example.test.exception.ElemNotFound;
 
 import java.io.*;
 import java.nio.file.Files;

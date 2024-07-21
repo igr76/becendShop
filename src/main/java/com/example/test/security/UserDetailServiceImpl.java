@@ -1,5 +1,11 @@
 package com.example.test.security;
 
+import com.example.test.dto.RegisterReq;
+import com.example.test.dto.Role;
+import com.example.test.entity.UserEntity;
+import com.example.test.loger.FormLogInfo;
+import com.example.test.repository.UserRepository;
+import com.example.test.utils.Encoder;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
@@ -7,19 +13,10 @@ import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.stereotype.Service;
-import ru.skypro.homework.WebSecurityConfig;
-import ru.skypro.homework.dto.RegisterReq;
-import ru.skypro.homework.dto.Role;
-import ru.skypro.homework.entity.UserEntity;
-import ru.skypro.homework.exception.ElemNotFound;
-import ru.skypro.homework.loger.FormLogInfo;
-import ru.skypro.homework.repository.UserRepository;
-import ru.skypro.homework.utils.Encoder;
-
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
-
+import com.example.test.exception.ElemNotFound;
 @Service("UserDetailServiceImpl")
 @Slf4j
 public class UserDetailServiceImpl implements UserDetailsService {

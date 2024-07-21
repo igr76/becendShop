@@ -1,5 +1,6 @@
 package com.example.test;
 
+import com.example.test.utils.Encoder;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -9,7 +10,7 @@ import org.springframework.security.config.annotation.authentication.builders.Au
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.web.SecurityFilterChain;
-import ru.skypro.homework.utils.Encoder;
+
 
 import static org.springframework.security.config.Customizer.withDefaults;
 

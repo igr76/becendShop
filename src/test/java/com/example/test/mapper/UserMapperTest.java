@@ -1,13 +1,15 @@
 package com.example.test.mapper;
 
+import com.example.test.dto.UserDTO;
+import com.example.test.entity.UserEntity;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import ru.skypro.homework.dto.UserDTO;
-import ru.skypro.homework.entity.UserEntity;
+
 
 import java.time.LocalDateTime;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 @SpringBootTest
