@@ -1,5 +1,13 @@
 package com.example.test.controller;
 
+import com.example.test.dto.CommentDTO;
+import com.example.test.dto.ImageDTO;
+import com.example.test.dto.UserDTO;
+import com.example.test.entity.AdEntity;
+import com.example.test.entity.CommentEntity;
+import com.example.test.entity.ImageEntity;
+import com.example.test.entity.UserEntity;
+import com.example.test.exception.ElemNotFound;
 import com.example.test.mapper.AdsOtherMapper;
 import com.example.test.mapper.ImageMapper;
 import com.example.test.mapper.UserMapper;
